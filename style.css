@@ -1,0 +1,39 @@
+body {
+    background-color: hsl(189, 78.60%, 78.00%);
+    font:didot; 
+}
+h2 {
+    font-family: monospace;
+    font:monaco; 
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+img {
+    margin: 10px auto;
+}
+button {
+    font-family:"Bebas Neue", sans-serif;
+    font-weight: 400; 
+    font-style: normal;
+    background-color: var(--bg-default);
+    border: 1;
+    border-color:hsl(189, 21%, 41%);
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 24px;
+}
+.primary {
+    --bg-default: rgb(255, 255, 255);
+    --bg-hover: rgb(234, 255, 112);
+}
+button:hover {
+    background-color: var(--bg-hover);
+}
+button:focus {
+    outline: 2px solid white;
+}

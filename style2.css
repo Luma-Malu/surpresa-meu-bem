@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    border-radius: 100px;
+    background-color: lightyellow;
+    color:rgb(53, 32, 9)
+}
+body {
+    background-color: hsl(12, 25.30%, 31.00%)
+}
+h3 {
+    color: white;
+    text-align: center;
+}
+button {
+    font-family: "Playpen Sans Hebrew", cursive;
+    font-optical-sizing: auto; 
+    font-weight: 500;
+    font-style: normal;
+    background-color: var(--bg-default);
+    border: 1;
+    border-color:hsl(189, 21%, 41%);
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 24px;
+}
+.primary {
+    --bg-default: rgb(160, 102, 102);
+    --bg-hover: rgb(240, 162, 162);
+}
+button:hover {
+    background-color: var(--bg-hover);
+}
+button:focus {
+    outline: 2px solid white;
+}
